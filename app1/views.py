@@ -4,7 +4,8 @@ from django.contrib.auth import authenticate
 # Create your views here.
 
 def home(request):
-    return render (request, 'home.html')
+    
+    return render(request, 'home.html')
 
 def login_user(request):
     
