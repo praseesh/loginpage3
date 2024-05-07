@@ -17,5 +17,3 @@ def login_user(request):
             return redirect('login_user')
     return ('login_user')
 
-def logout(request):
-    pass
