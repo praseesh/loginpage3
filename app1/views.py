@@ -15,5 +15,5 @@ def login_user(request):
             return render (request, 'home.html')
         else:
             return redirect('login_user')
-        return ('login_user')
+         return ('login_user')
  
